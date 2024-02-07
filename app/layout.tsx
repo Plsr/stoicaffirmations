@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Sotic Affirmations",
     description:
       "A collection of quotes from Stoic philosophers to help you get through tough times.",
-    images: ["og-image.jpg"],
+    images: ["/og-image.jpg"],
   },
 };
 
