@@ -16,7 +16,16 @@ export const metadata: Metadata = {
     title: "Sotic Affirmations",
     description:
       "A collection of quotes from Stoic philosophers to help you get through tough times.",
-    images: ["/og-image.jpg"],
+      images: [
+        {
+          url: 'https://www.stoicaffirmations.com/og-image.jpg',
+          width: 1200,
+          height: 630,
+        },
+      ],
+      locale: 'en_US',
+      type: 'website',
+    },
   },
 };
 
