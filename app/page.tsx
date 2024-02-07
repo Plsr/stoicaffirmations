@@ -1,29 +1,6 @@
 import { Quote } from "@/components/Quote";
 import { quotes } from "@/util/data/quotes";
-import { Metadata } from "next";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: "Sotic Affirmations",
-  description:
-    "A collection of quotes from Stoic philosophers to help you get through tough times.",
-  icons: {
-    icon: "/favicon.png",
-  },
-  openGraph: {
-    title: "Sotic Affirmations",
-    description:
-      "A collection of quotes from Stoic philosophers to help you get through tough times.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Sotic Affirmations",
-      },
-    ],
-  },
-};
 
 export default function Component() {
   return (
